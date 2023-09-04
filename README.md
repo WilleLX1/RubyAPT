@@ -1,2 +1,39 @@
-# RubyAPT
-A demo of a APT (Advanced Persistent Threat). My goal of this project is to make educational malware that will silently steal information from systems over a long time and send back data gathered to C2 (Command and Control).
+# RubyAPT: Advanced Persistent Threat Demonstration
+
+## Disclaimer:
+**This project is intended solely for educational and research purposes. Unauthorized use of this code for malicious purposes is strictly prohibited. The author takes no responsibility for any misuse of the information provided.**
+
+## Introduction
+RubyAPT is a demonstration of an Advanced Persistent Threat (APT) framework. The primary objective of this project is to create educational malware for the purpose of understanding and defending against APT attacks. This framework is designed to simulate the behavior of APTs, which are sophisticated and persistent cyber threats that aim to silently infiltrate systems, gather sensitive information over an extended period, and transmit the collected data to a Command and Control (C2) server.
+
+## Key Features
+RubyAPT includes a range of features commonly associated with Advanced Persistent Threats (APTs), allowing users to gain insights into their functionalities. Some of the key features include:
+
+- **Keylogger:** Capture and log keystrokes made by the user, potentially revealing sensitive information such as passwords.
+
+- **Password Grabber:** Collect and store passwords entered by the user, aiding in unauthorized access to accounts.
+
+- **Web History Logger:** Monitor and record the user's web browsing history, revealing the websites they have visited.
+
+- **Data Exfiltration:** Simulate the extraction and transmission of collected data to a Command and Control (C2) server.
+
+- **Persistence Mechanisms:** Implement techniques for maintaining long-term access to compromised systems.
+
+- **Anti-detection Techniques:** Explore methods used by APTs to evade detection by security software and practices.
+
+## Usage
+To use RubyAPT, follow these steps:
+
+1. **Installation**: Clone this repository to your local machine.
+
+   ```shell
+   git clone https://github.com/WilleLX1/RubyAPT.git
+   
+2. **Configuration**: Modify the configuration files to simulate specific APT behaviors.
+
+3. **Execution**: Run the RubyAPT scripts within a controlled and isolated environment to observe the simulated APT activities.
+
+4. **Analysis**: Study the generated logs and data to understand the techniques used by APTs.
+
+## Disclaimer:
+**RubyAPT is an educational project and should only be used in environments where you have explicit permission and legal authorization to simulate APT activities. The use of this project for malicious purposes is strictly prohibited and illegal. The author and contributors are not responsible for any misuse of this project.**
